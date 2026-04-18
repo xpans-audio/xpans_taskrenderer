@@ -1,0 +1,16 @@
+[package]
+name = "xpans_taskrenderer"
+version = "0.1.0"
+edition = "2024"
+description = "A rendering library dedicated to offline, non-realtime rendering of spatial audio scenes in the xpans Ecosystem"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/xpans-audio/xpans_taskrenderer.git"
+authors = ["Ben Seigler"]
+
+[dependencies]
+num = "0.4.3"
+xpans_violet = "0.1.0"
+xpans_renderconfig = "0.1.0"
+xpans_xsr = "0.1.0"
+serde = { version = "1.0.228", features = ["derive"] }
