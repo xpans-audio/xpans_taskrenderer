@@ -13,7 +13,7 @@ rendering engine and its extensions.
 ## Tasks
 Tasks are extended [render configurations](https://github.com/xpans-audio/xpans_renderconfig).
 
-A list of tasks in JSON would look like:
+A render task in JSON would look like:
 ```json
 {
   "name": "Headphones",
